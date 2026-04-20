@@ -101,6 +101,7 @@ section {
   justify-content: center;
   gap: 15rem;
 }
+
 .home-content h1 {
   font-size: 6rem;
   font-weight: 700;
@@ -448,6 +449,28 @@ font-size: 20px;
     border-bottom: 2px solid var(--main-color);
     display: none;
   }
+
+  .home-content h3 {
+    font-size: 34px;
+    margin-top: 30px;
+  }
+  .home-content h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.home-content p {
+  margin-left: 20px;
+  text-align: left;
+}
+
+
   .navbar a {
     display: block;
     font-size: 2rem;
@@ -469,6 +492,8 @@ font-size: 20px;
     align-items: center;
     text-align: center;
   }
+
+  
   .home-img img {
     width: 52vw;
   }
@@ -480,10 +505,38 @@ font-size: 20px;
     text-align: center;
     margin: 2rem 0;
   }
+  .about p {
+    text-align: left;
+    margin-left: 20px;
+  }
   .about img{
     width: 52vw;
   }
   .contact form {
     flex-direction: column;
   }
+  .contact h2 {
+    font-size: 60px;
+  }
+  .project-card:nth-child(4) {
+  padding: 3rem;
 }
+
+.project-card p {
+  text-align: left;
+}
+#ven {
+  width: 72vw;
+}
+.ven-about p {
+  font-size: 16px;
+  text-align: left;
+  justify-items: left;
+  padding: 0;
+  margin-left: 20px;
+  line-height: 30px;
+}
+.ven-about p:hover {
+  box-shadow: none;
+}
+   }
