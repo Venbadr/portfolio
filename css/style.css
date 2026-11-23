@@ -996,4 +996,12 @@ font-size: 20px;
   }
 }
 
+.service-info h3 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
 
